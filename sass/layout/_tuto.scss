@@ -1,6 +1,6 @@
-@use "../utils/mixins";
-@use "../utils/variables";
-@use "../utils/colors";
+@use "../utils/_mixins";
+@use "../utils/_variables";
+@use "../utils/_colors";
 
 .tuto {
   counter-reset: steps;
