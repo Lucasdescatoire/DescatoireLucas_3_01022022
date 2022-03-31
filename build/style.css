@@ -146,6 +146,7 @@ header {
   align-items: center;
   list-style-type: none;
   background-color: #f6f6f6;
+  cursor: pointer;
   padding: 1.5rem 2rem;
   flex-grow: 1;
   border-radius: 1rem;
@@ -236,6 +237,7 @@ margin-bottom: 2rem;
   position: relative;
   background-color: white;
   border-radius: 0 0 1rem 1rem;
+  cursor: pointer;
 }
 #homepage .menus .card__description i::before {
   display: inline-block;
@@ -343,6 +345,10 @@ body {
 #page-resto .resto__title {
   margin-top: -2rem;
 }
+#page-resto .resto__title i{
+  margin-top: -2rem;
+  cursor: pointer;
+}
 #page-resto .resto__title h2 {
   font-family: "Shrikhand", "cursive";
   padding: 2rem 1rem;
@@ -352,7 +358,7 @@ body {
   border-radius: 2rem 2rem 0 0;
   background-color: #f6f6f6;
 }
-#page-resto .resto__title h2::before {
+#page-resto .resto__title i::before {
   display: inline-block;
   position: absolute;
   font-style: normal;
@@ -364,7 +370,8 @@ body {
   content: "\f004";
   font-size: 2rem;
   right: 1rem;
-  top: 50%;
+  top: 57%;
+  cursor: pointer;
   transform: translateY(-50%);
   color: inherit;
   background-clip: text;
@@ -372,7 +379,7 @@ body {
   opacity: 1;
   transition: all 200ms ease-in-out;
 }
-#page-resto .resto__title h2::after {
+#page-resto .resto__title i::after {
   display: inline-block;
   position: absolute;
   font-style: normal;
@@ -384,16 +391,16 @@ body {
   content: "\f004";
   font-size: 2rem;
   right: 1rem;
-  top: 50%;
+  top: 57%;
   transform: translateY(-50%);
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
   opacity: 0;
-  transition: all 200ms ease-in-out;
+  transition: all 1000ms ease-in-out;
   background-image: linear-gradient(to top, #9356dc, #ff79da);
 }
-#page-resto .resto__title h2:hover::after {
+#page-resto .resto__title i:hover::after {
   opacity: 1;
   transform: translateY(-50%) scale(1.1);
 }
