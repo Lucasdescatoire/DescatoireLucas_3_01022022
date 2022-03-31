@@ -141,7 +141,6 @@ header {
   }
 }
 .tuto li {
-  cursor: pointer;
   position: relative;
   display: flex;
   align-items: center;
@@ -238,7 +237,7 @@ margin-bottom: 2rem;
   background-color: white;
   border-radius: 0 0 1rem 1rem;
 }
-#homepage .menus .card__description::before {
+#homepage .menus .card__description i::before {
   display: inline-block;
   position: absolute;
   font-style: normal;
@@ -258,7 +257,7 @@ margin-bottom: 2rem;
   opacity: 1;
   transition: all 200ms ease-in-out;
 }
-#homepage .menus .card__description::after {
+#homepage .menus .card__description i::after {
   
   display: inline-block;
   position: absolute;
@@ -280,7 +279,7 @@ margin-bottom: 2rem;
   transition: all 1000ms ease-in-out;
   background-image: linear-gradient(to top, #9356dc, #ff79da);
 }
-#homepage .menus .card__description:hover::after {
+#homepage .menus .card__description i:hover::after {
   opacity: 1;
   transform: translateY(-50%) scale(1.1);
 }
